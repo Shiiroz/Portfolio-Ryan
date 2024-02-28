@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import  './Footer.css';
 
-const Footer = () => {
+export default function footer () {
   return (
-    <div>Footer</div>
-  )
+    <footer className='footer'>
+      <p >
+        © 2020 Kasa. All rights reserved
+      </p>
+    </footer>
+  );
 }
-
-export default Footer
