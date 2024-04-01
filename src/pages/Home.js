@@ -1,9 +1,12 @@
 import React from "react";
-
+import "../components/Accueil/Accueil";
+import Accueil from "../components/Accueil/Accueil";
 
 export default function Home(){
     return<>
-    <h1>Welcome to our website!</h1>
+            <div className="Accueil">
+                <Accueil/>
+            </div>
         
         
         </>

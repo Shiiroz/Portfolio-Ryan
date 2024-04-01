@@ -1,0 +1,32 @@
+/* Réinitialisation des marges  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclure la bordure et le padding dans la largeur et la hauteur */
+}
+
+body{
+    background-color: black !important;
+    color: white;
+}
+
+ul, ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Couleur des liens non visités */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Couleur des liens au survol */
+a:hover {
+    color: red; /* Par exemple, vous pouvez choisir une autre couleur au survol */
+}
+
+/* Couleur des liens déjà visités */
+a:visited {
+   color: white; /* Par exemple, vous pouvez chois /* Par exemple, vous pouvez choisir une autre couleur pour les liens déjà visités */
+}

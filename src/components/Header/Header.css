@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head{
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 55px;
+    gap: 40px;
+}
+
+.logo img {
+    width: 100px; /* Réduire la largeur de l'image à 50 pixels */
+    height: auto; /* Conserver le ratio hauteur/largeur d'origine */
+}
+
+.Titre {
+    font-size: 35px;
+    margin-left: 13%;
+}
+  
